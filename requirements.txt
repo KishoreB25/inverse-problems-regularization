@@ -1,9 +1,0 @@
-numpy
-pandas
-openai
-scikit-image
-matplotlib
-scipy
-seaborn
-groq
-opencv-python-headless
