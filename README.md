@@ -95,6 +95,8 @@ The objective of this project is to:
 - Successfully applied Tikhonov and TSVD regularization
 - Performed parameter sweeps to find optimal regularization parameters
 - Implemented NSIT with Morozov stopping criterion
+- Implemented FNIST with Morozov stopping criterion
+- Integrated with LLM for parameter selection
 - Achieved ~96% error reduction compared to pseudoinverse
 - Extended experiments from 1D signals to 2D image reconstruction
 
@@ -115,10 +117,10 @@ The objective of this project is to:
 
 - Pseudoinverse reconstruction completely fails for ill-posed problems
 - Tikhonov and TSVD provide stable and meaningful reconstructions
-- NSIT achieves the best performance by adapting regularization over iterations
+- FNSIT achieves the best performance by adapting regularization over iterations
 - Regularization methods are robust across different signals and operators
 - SVD plays a central role in explaining instability and guiding regularization
-
+![alt text](image.png)
 ---
 
 ## Future Plans
